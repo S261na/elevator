@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width:100%;
+    background: url("https://p.turbosquid.com/ts-thumb/bt/wAaFWK/yH/emptyroom0001/png/1682965157/1920x1080/fit_q99/a2c4151001244fa65c7cfceeab8a3f89a373cbf0/emptyroom0001.jpg");
+    padding:40px 0;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.floor-select{
+    text-align:center;
+    background:#a6a5a5;
+    border-radius: 50px;
+    border: 10px ridge #4d4239 ;
+    width:40%;
+    height: 70%;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.floor-list{
+    display: flex;
+    flex-direction: row;
+}
+.floor-select ul li{
+    width:50px;
+    text-align:center;
+    height:50px;     
+    line-height:50px;
+    border:1px solid #AAA;
+    margin:13px;
+    border-radius:50%;
+    border:2px solid #DDD;
+    list-style-type: none;
+}
+.floor-select ul li:hover{
+   background-color: #5e4949;
+    color:#FFF;
+    cursor:pointer;
+    transition:all 300ms;
+}
+.floor-select ul li:active{
+    background-color: #64697b;
+}
+
+.building {
+    width:40%;
+    background: url("https://phonoteka.org/uploads/posts/2021-05/1620783758_7-phonoteka_org-p-fon-lifta-vnutri-8.jpg");
+    height:500px;
+}
+h6{
+    font-size: 23px;
+    margin: 62px;
+}
+.elevatorShaft {
+    background:#362E2B;
+    width:33.33%;
+    height:500px;
+    margin: 0 auto;
+    position:relative;
+    margin-top: -506px;
+}
+.elevatorContainer { 
+    height:500px;
+    width:100%;
+    position: relative;
+}
+.elevator {
+    height:20%;        
+    width:100%;
+    background: url("https://static.wixstatic.com/media/ef977c_f43c52196de94f4fba8df71a6a6c947d~mv2.png/v1/fill/w_233,h_350,al_c,lg_1,q_85,enc_auto/elevator-door.png");
+    background-size:100% 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    transition: all 2.5s;
+} 
+.buttonUp, .buttonDown, .btn{
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #4d4239;
+	/* box-shadow: 0 2px #21487f; */
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+.buttonUp:hover {
+	background-color: #64697b;
+}
+.buttonUp:active {
+	background-color: #4c505d;
+}
+.buttonDown:hover {
+	background-color: #64697b;
+}
+.buttonDown:active {
+	background-color: #4c505d;
+}
+.btn:hover {
+	background-color: #64697b;
+}
+.btn:active {
+	background-color: #4c505d;
+}
+.slideSecond{
+    animation: slideSecond 2.2s ease-in !important;
+    animation-fill-mode: forwards !important;
+}
+.slideThird{
+    animation: slideThird 2.2s ease-in !important;
+    animation-fill-mode: forwards !important;
+}
+.slideFourth{
+    animation: slideFourth 2.2s ease-in !important;
+    animation-fill-mode: forwards !important;
+}
+.slideFifth{
+    animation: slideFifth 2.2s ease-in !important;
+    animation-fill-mode: forwards !important; 
+}
